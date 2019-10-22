@@ -13,6 +13,7 @@
 		3076F6A6235F446D00F069CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3076F6A4235F446D00F069CE /* Main.storyboard */; };
 		3076F6A8235F446D00F069CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3076F6A7235F446D00F069CE /* Assets.xcassets */; };
 		3076F6AB235F446D00F069CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3076F6A9235F446D00F069CE /* LaunchScreen.storyboard */; };
+		3076F6B3235F4B1900F069CE /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3076F6B2235F4B1900F069CE /* Jokes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3076F6A7235F446D00F069CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3076F6AA235F446D00F069CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3076F6AC235F446D00F069CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3076F6B2235F4B1900F069CE /* Jokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3076F6A7235F446D00F069CE /* Assets.xcassets */,
 				3076F6A9235F446D00F069CE /* LaunchScreen.storyboard */,
 				3076F6AC235F446D00F069CE /* Info.plist */,
+				3076F6B2235F4B1900F069CE /* Jokes.swift */,
 			);
 			path = SecondIosApp;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				3076F6A3235F446D00F069CE /* ViewController.swift in Sources */,
 				3076F69F235F446D00F069CE /* AppDelegate.swift in Sources */,
+				3076F6B3235F4B1900F069CE /* Jokes.swift in Sources */,
 				3076F6A1235F446D00F069CE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Bishakha-Roy.SecondIosApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Bishakha-Roy.SecondIosApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
