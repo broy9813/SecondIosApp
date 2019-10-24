@@ -18,7 +18,7 @@ var jokes = [String] ()
     init() {
         // includes two Strings in the jokes array
         jokes.append("What do you call a bear with no teeth? A gummy bear!")
-        jokes.append("If con is the opposite of prograss, it must mean congress is the opposite of prograss!")
+        jokes.append("If con is the opposite of prograss, it must mean Congress is the opposite of Prograss!")
     
     }
 }

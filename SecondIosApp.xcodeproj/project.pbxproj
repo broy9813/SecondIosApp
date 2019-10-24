@@ -14,6 +14,10 @@
 		3076F6A8235F446D00F069CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3076F6A7235F446D00F069CE /* Assets.xcassets */; };
 		3076F6AB235F446D00F069CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3076F6A9235F446D00F069CE /* LaunchScreen.storyboard */; };
 		3076F6B3235F4B1900F069CE /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3076F6B2235F4B1900F069CE /* Jokes.swift */; };
+		30F3D9AB2361E1E400C0C20C /* Munchie.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F3D9A72361E1E300C0C20C /* Munchie.png */; };
+		30F3D9AC2361E1E400C0C20C /* Astro.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F3D9A82361E1E300C0C20C /* Astro.png */; };
+		30F3D9AD2361E1E400C0C20C /* Squido.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F3D9A92361E1E400C0C20C /* Squido.png */; };
+		30F3D9AE2361E1E400C0C20C /* Fluffy.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F3D9AA2361E1E400C0C20C /* Fluffy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		3076F6AA235F446D00F069CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3076F6AC235F446D00F069CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3076F6B2235F4B1900F069CE /* Jokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
+		30F3D9A72361E1E300C0C20C /* Munchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Munchie.png; sourceTree = "<group>"; };
+		30F3D9A82361E1E300C0C20C /* Astro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Astro.png; sourceTree = "<group>"; };
+		30F3D9A92361E1E400C0C20C /* Squido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Squido.png; sourceTree = "<group>"; };
+		30F3D9AA2361E1E400C0C20C /* Fluffy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fluffy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				3076F6A9235F446D00F069CE /* LaunchScreen.storyboard */,
 				3076F6AC235F446D00F069CE /* Info.plist */,
 				3076F6B2235F4B1900F069CE /* Jokes.swift */,
+				30F3D9A82361E1E300C0C20C /* Astro.png */,
+				30F3D9AA2361E1E400C0C20C /* Fluffy.png */,
+				30F3D9A72361E1E300C0C20C /* Munchie.png */,
+				30F3D9A92361E1E400C0C20C /* Squido.png */,
 			);
 			path = SecondIosApp;
 			sourceTree = "<group>";
@@ -129,8 +141,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3076F6AB235F446D00F069CE /* LaunchScreen.storyboard in Resources */,
+				30F3D9AC2361E1E400C0C20C /* Astro.png in Resources */,
 				3076F6A8235F446D00F069CE /* Assets.xcassets in Resources */,
+				30F3D9AE2361E1E400C0C20C /* Fluffy.png in Resources */,
 				3076F6A6235F446D00F069CE /* Main.storyboard in Resources */,
+				30F3D9AD2361E1E400C0C20C /* Squido.png in Resources */,
+				30F3D9AB2361E1E400C0C20C /* Munchie.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
